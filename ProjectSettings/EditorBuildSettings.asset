@@ -14,9 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/gameoverscene.unity
     guid: 65790589d8871fb4ba5bdfdef3b954ef
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/clearscene.unity
     guid: 8394f7812d298294dabfc7e515e4281e
+  - enabled: 1
+    path: Assets/Scenes/clearscenereal.unity
+    guid: 634c41117f48a1940933d58845b6f252
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
