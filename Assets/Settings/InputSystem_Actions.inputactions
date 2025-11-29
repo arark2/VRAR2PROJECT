@@ -1,4 +1,8 @@
 {
+<<<<<<< HEAD
+=======
+    "version": 1,
+>>>>>>> b545e79 (Initial commit)
     "name": "InputSystem_Actions",
     "maps": [
         {
