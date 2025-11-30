@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using UnityEngine;
 
 public class DoorScript : MonoBehaviour
@@ -25,11 +25,11 @@ public class DoorScript : MonoBehaviour
 
     void Update()
     {
-        // player°¡ ¾ÆÁ÷ ÇÒ´çµÇÁö ¾Ê¾Ò´Ù¸é ¾À¿¡¼­ Ã£¾Æº¸±â
+        // playerê°€ ì•„ì§ í• ë‹¹ë˜ì§€ ì•Šì•˜ë‹¤ë©´ ì”¬ì—ì„œ ì°¾ì•„ë³´ê¸°
         if (player == null)
         {
             player = GameObject.FindWithTag("Player")?.transform;
-            if (player == null) return; // ±×·¡µµ ¾øÀ¸¸é ³Ñ¾î°¨
+            if (player == null) return; // ê·¸ë˜ë„ ì—†ìœ¼ë©´ ë„˜ì–´ê°
         }
 
         float dist = Vector3.Distance(player.position, transform.position);

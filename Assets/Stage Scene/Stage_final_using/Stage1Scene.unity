@@ -652,6 +652,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Classroom_Normal
       objectReference: {fileID: 0}
+    - target: {fileID: 3168184115520657787, guid: 51cbb9d8d6219a04daf5e7547aa98050, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6231709833512680367, guid: 51cbb9d8d6219a04daf5e7547aa98050, type: 3}
       propertyPath: faceVisual
       value: 
